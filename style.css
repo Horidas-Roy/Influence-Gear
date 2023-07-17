@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+/* shared style */
+.btn-primary {
+  padding: 10px 24px;
+  border-radius: 41px;
+  background: #e02c6d;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+}
+
+/* Navbar related style */
+header {
+  padding: 60px 100px;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.logo-text {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+}
+.navbar-container .menu {
+  display: flex;
+  list-style: none;
+  color: #3a3a3a;
+  padding: 1.25rem;
+}
+.navbar-container .menu li {
+  margin-right: 1.8rem;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+}
+/* banner related style */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 100vh; */
+}
+.banner-tittle {
+  color: #3a3a3a;
+  font-size: 3.25rem;
+}
+.banner-description {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.banner-photo {
+  background: url(./images/Circle\ design.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.banner-pic {
+  width: 100%;
+}
+/* online market logo related style */
+.online-market-logo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+  margin-bottom: 6rem;
+}
+
+/* collection related style */
+.collection-container{
+    margin: 50px 120px;
+}
+.collection-tittle {
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.card{
+   max-width:329px;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+padding: 17px 14px;
+}
+.card-tittle{
+    color:#18191F;
+font-size: 1.8rem;
+font-weight: 500;
+}
+.prize{
+    color: rgba(0, 0, 0, 0.87);
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 150%;
+}
+.card-description{
+    color:#787885;
+font-size: 14px;
+font-weight: 700;
+line-height: 143%;
+letter-spacing: 0.252px;
+width: 196px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    gap: 30px;
+}
+.see-more-btn{
+    text-align: end;
+    color: rgba(224, 44, 109, 0.87);
+font-weight: 700;
+ padding-top: 50px;
+}
+/* featured product related style */
+.featured-product-container{
+    display: flex;
+    padding:50px 120px;
+    gap: 90px;
+}
+.featured-tittle{
+    color: #0A0826;
+font-family: Poppins;
+font-size: 2rem;
+font-weight: 700;
+}
+.featured-description{
+    color: #6C6C6C;
+font-family: Poppins;
+font-weight: 700;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+#btn-join{
+    border-radius: 2px;
+}
+/* footer related style */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    margin: 0 auto;
+    height: 40vh;
+    background: #0A0826;
+    color: #FFF;
+}
+.social-links{
+
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.footer-tittle{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footer-description{
+font-size: 0.9rem;
+font-weight: 700;
+text-align: center;
+margin-top: 5px;
+margin-bottom: 10px;
+}
